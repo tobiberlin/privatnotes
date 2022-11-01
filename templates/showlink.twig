@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include 'html_head.twig' %}
+<body>
+
+<div class="container">
+  <h1>{{ headline }}</h1>
+  <div>{{ description }}</div>
+  <div class="mb-3 mt-3">
+    <button type="submit" class="btn btn-dark" id="copy-link" data-url="{{ link }}">{{ button_text }}</button>
+  </div>
+  <div class="messagelink-box">{{ link }}</div>
+</div>
+</body>
+</html>

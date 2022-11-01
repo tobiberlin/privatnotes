@@ -1,0 +1,17 @@
+{
+  "name": "privatenotes",
+  "version": "1.0.0",
+  "description": "A small tool to send private notes like passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Krause",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "twing": "^5.1.2"
+  }
+}
